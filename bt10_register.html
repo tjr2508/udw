@@ -32,7 +32,7 @@
                 </tr>
                 <tr>
                     <td>Mật khẩu: </td>
-                    <td><input type="text"></td>
+                    <td><input type="password"></td>
                 </tr>
                 <tr>
                     <td>Giới tính</td>
@@ -54,13 +54,14 @@
                 <tr>
                     <td>Ngôn ngữ lập trình yêu thích nhất</td>
                     <td>
-                        <select name="" id="list">
+                        <input type="text" list="language">
+                        <datalist name="" id="language">
                             <option value="">C++</option>
                             <option value="">C#</option>
                             <option value="">PHP</option>
                             <option value="">Java</option>
                             <option value="">Python</option>
-                        </select>
+                        </datalist>
                     </td>
                 </tr>
                 <tr>
@@ -71,7 +72,7 @@
                     <td></td>
                     <td>
                         <input type="image" src="./images/login.png" alt="" width="90px" height="40px" onsubmit="">
-                        <input type="image" src="./images/cancel.png" alt="" width="90px" height="40px" >
+                        <input type="image" src="./images/cancel.png" alt="" width="90px" height="40px" onreset="">
                 </td>
                 </tr>
             </table>
