@@ -45,26 +45,38 @@ nav .subnav {
 nav li:nth-child(3):hover .subnav {
   display: block;
 }
-#content{
+#content {
   display: flex;
+  position: relative;
+  height: calc(100vh - (10rem + 10px));
 }
-.leftbar{
+.leftbar {
   width: 20%;
+  height: 100%;
   background-color: rgb(185, 225, 243);
 }
-h4{
+h4 {
   background-color: blue;
   color: aliceblue;
   text-align: center;
   padding: 5px;
 }
-.leftbar ul{
+.leftbar ul {
   padding: 2rem;
   list-style-type: none;
 }
 .rightbar {
   right: 0;
+  height: 100%;
   position: absolute;
   width: 20%;
   background-color: rgb(185, 225, 243);
+}
+footer {
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 3rem;
 }
