@@ -1,32 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS07</title>
-    <link rel="stylesheet" href="./CSS/css07.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./CSS/css07.css" />
+  </head>
+  <body>
     <header>
-        <h1>Diễn đàn công nghệ thông tin</h1>
+      <h1>Diễn đàn công nghệ thông tin</h1>
     </header>
     <nav>
-
+      <ul>
+        <li><a href="">Trang chủ</a></li>
+        <li><a href="">Giới thiệu</a></li>
+        <li>
+          <a href="">Tin tức</a>
+          <ul class="subnav">
+            <li><a href="">Công nghệ</a></li>
+            <li><a href="">Phần mềm</a></li>
+            <li><a href="">Phần cứng</a></li>
+            <li><a href="">Việc làm</a></li>
+          </ul>
+        </li>
+        <li><a href="">Liên hệ</a></li>
+      </ul>
     </nav>
     <div id="content">
-        <div class="leftbar">
-
+      <div class="leftbar">
+        <h4>Ngôn ngữ lập trình</h4>
+        <ul>
+            <li>C++</li>
+            <li>C#</li>
+            <li>Java</li>
+            <li>PHP</li>
+            <li>Python</li>
+            <li>MATLAB</li>
+        </ul>
+        <h4>Cơ sở dữ liệu</h4>
+        <ul>
+            <li>Access</li>
+            <li>SQL Server</li>
+            <li>MySQL</li>
+            <li>Oracle</li>
+            <li>PostgreSQL</li>
+        </ul>
+      </div>
+      <div class="main">
+        
+      </div>
+      <div class="rightbar">
+        <div class="ads">
+            <h5>Quảng cáo 1</h5>
         </div>
-        <div class="main">
-
+        <div class="ads">
+            <h5>Quảng cáo 2</h5>
         </div>
-        <div class="rightbar">
-
+        <div class="ads">
+            <h5>Quảng cáo 3</h5>
         </div>
+      </div>
     </div>
-    <footer>
-
-    </footer>
-
-</body>
+    <footer>Copyright<sup>&copy</sup> 2019</footer>
+  </body>
 </html>

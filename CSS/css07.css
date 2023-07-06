@@ -2,17 +2,69 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style: none;
 }
 header {
-    text-align: center;
+  text-align: center;
   height: 5rem;
   width: 100%;
-  background: url(../images/pig.jpg) repeat-x;
+  background: url(../images/star.jpg) repeat-x;
 }
-header h1{
-    line-height: 5rem;
-    
+header h1 {
+  color: yellow;
+  line-height: 5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 3px 3px red;
 }
 nav {
+  margin-top: 10px;
+  width: 100%;
+  height: 2rem;
+  background-color: rgb(9, 194, 194);
+  text-align: center;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav li {
+  position: relative;
+  background-color: rgb(5, 146, 99);
+  line-height: 2rem;
+  width: 10rem;
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+  color: aliceblue;
+}
+nav .subnav {
+  display: none;
+  left: 0;
+  position: absolute;
+}
+nav li:nth-child(3):hover .subnav {
+  display: block;
+}
+#content{
+  display: flex;
+}
+.leftbar{
+  width: 20%;
+  background-color: rgb(185, 225, 243);
+}
+h4{
+  background-color: blue;
+  color: aliceblue;
+  text-align: center;
+  padding: 5px;
+}
+.leftbar ul{
+  padding: 2rem;
+  list-style-type: none;
+}
+.rightbar {
+  right: 0;
+  position: absolute;
+  width: 20%;
+  background-color: rgb(185, 225, 243);
 }
