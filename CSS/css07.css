@@ -38,13 +38,14 @@ nav a {
   color: aliceblue;
 }
 nav .subnav {
-  display: none;
-  left: 0;
   position: absolute;
+  z-index: 1;
+  display: none;
 }
-nav li:nth-child(3):hover .subnav {
+nav li:hover .subnav{
   display: block;
 }
+
 #content {
   display: flex;
   position: relative;
@@ -71,6 +72,18 @@ h4 {
   position: absolute;
   width: 20%;
   background-color: rgb(185, 225, 243);
+}
+#content .main{
+  width: 60%;
+  height: calc(100% );
+  background-color: blueviolet;
+}
+#content .main > .content{
+  width: 50%;
+  height: 50%;
+  background-color: aquamarine;
+  z-index: 1;
+  float: left;
 }
 footer {
   background-color: blue;
