@@ -85,6 +85,11 @@ h4 {
   z-index: 1;
   float: left;
 }
+.main .content p{
+  padding: 1rem;
+  
+  overflow: scroll;
+}
 footer {
   background-color: blue;
   position: absolute;
